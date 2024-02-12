@@ -1,0 +1,54 @@
+
+<html> 
+    <head> 
+        <title>My first X3DOM page</title> 			
+        <script type='text/javascript' src='http://www.x3dom.org/download/x3dom.js'> </script> 
+        <link rel='stylesheet' type='text/css' href='http://www.x3dom.org/download/x3dom.css'></link> 
+    </head> 
+    <body> 
+
+   <x3d width='400px' height='400px'> 
+      <scene> 
+        <!--(1)1.Kegel-->
+       <group DEF='RED_Cone'>
+          <shape> 
+              <appearance> 
+                    <material diffuseColor='1 0 0'></material> 
+             </appearance> 
+             <cone></cone> 
+           </shape>
+      </group>     
+
+          <!--(2)2.Kegel -->
+        <transform translation="0 2 0" rotation="1 0 0 3.15">
+           <group USE = 'RED_Cone'>
+          </group>
+      </transform>
+      
+       <!--(3)1.blaue Kugel-->
+       <group DEF="BLAU_Sphere">
+        <transform translation="0 -1 0"  scale="1.2 0.2 1.2">
+         <shape>
+          <appearance>
+            <material diffuseColor='0 0 1'></material> 
+          </appearance>
+          <sphere></sphere>
+         </shape>
+        </transform>
+       </group>
+
+       <!--(4)2.blau Kugel-->
+       <transform translation="0 4 0">
+        <group USE="BLAU_Sphere"></group>
+       </transform>
+    
+      </scene> 
+   </x3d>
+  </body> 
+</html> 
+
+
+
+
+
+
