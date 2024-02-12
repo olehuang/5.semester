@@ -1,0 +1,56 @@
+Folien 01
+Definition von Visual Computing: 
+  Visual Computing ist eine Kombination mehrerer Bereiche der Informatik 
+  in denen im Wesentlichen mit Bildern und Modellen gearbeitet wird.
+
+Visual Computing Virtuell
+
+                             ->  Computer Vision -> Datenmodelle und    -> Modellbildung
+Bildverarbeitung <->Bilder   <- Rendering      <- Modellbasierte Daten   Simulation
+
+Skalierbare Objektmodellierung/-erkennung:
+ Deep & Depper Learing:
+   1.Viele verdeckte Zwischenebenen -> deep Learing
+   2.Big Data zum Trainieren 
+   3.Giantische Berechnungen (GPU,usw.)
+   4.Intelligente(stochastische)Optimierungsalgorithmen
+
+Big Data/Visual Analytics:
+  Durch die zunehmende Ditalisierung steigt die Menge und Komplexität 
+  zu verarbeitender Daten in bislang ungekanntem Maße.
+
+Visual Analytics:
+  Die geeignete Analyse und explorative Erschliessung dieser oft abstrakten,heterogenen und
+  großen Datenmengen brigt große Nutzungschancen in vielen Anwendungsgebieten.
+
+Scene Understanding/Verstehen und Analysieren von 3D/4D Szenen
+   1.Am Anfang: Detektion in einzelnen Bildern 
+   2.Dann:      Detektion in kurzen Bildsequenzen
+   3.Danach:    Verfolgung trotz Verdeckungen 
+   4.Integration von Personendetektion und Personenverfolgung
+   5.Objektdetektion und -Verfolgung in komplexen Szenen
+   6 Anwendungen:
+                 a.Automotive Safty & Service Robotics
+                 b.Homeland Security
+                 c.Suche im Internet und Multimediadaten
+                 d.Ambient Assisted Living
+   7 Ziel: eine in Bildern und Videos erfasste Szene vollständig zu modellieren und darzustellen.
+   8 Über die 3D-Geometrie hinaus sollen zeitliche Veränderungen zu (4D-Modellierung) erfasst werden
+   9.Die gefundene Beschreibung enthält die relevanten semantischen Objekte,die die Szene ausmachen,
+     sowie Modelle für deren Bewegungen, Bewegungs- und Interaktionesmuster.
+
+
+3D/generalisierte Dokumente:
+   Informationsüberflutung:Wegen Technischer Fortschritt 
+         (z.B. Speichertechnologie,Akquisitionstechnologie,Authoring Thechnologie)
+           führt zu Aufkommen großer Mengen digitaler/nicht-textueller Informationsüberflutung.
+        Adäquate Nutzung durch Retrieval,Analyse,Kombination und Synthese gefährdet durch
+        Menge und Komplexität.
+        
+
+        
+      
+
+
+
+
